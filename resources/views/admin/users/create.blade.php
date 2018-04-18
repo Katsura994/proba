@@ -41,8 +41,8 @@
         </div>
 
         <div class="form-group">
-            <label for="file">Add File</label>
-            <input type="file" id="file" name="file" class="form-control"/>
+            <label for="photo_id">Add File</label>
+            <input type="file" id="photo_id" name="photo_id" class="form-control"/>
         </div>
 
         <div class="form-group">
