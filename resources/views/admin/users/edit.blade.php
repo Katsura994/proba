@@ -63,6 +63,13 @@
 
             </form>
 
+            <form method="post" action="{{ action('AdminUsersController@destroy', $user->id) }}" accept-charset="utf-8">
+                {{ method_field('DELETE') }}
+                {{ csrf_field() }}
+                <div class="form-group">
+                    <input type="submit" value="Delete User" class="btn btn-danger" />
+                </div>
+            </form>
         </div>
     </div>
     <div class="row">
