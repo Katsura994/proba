@@ -20,7 +20,7 @@
         <div class="form-group">
             <label for="role_id">Role</label>
             <select class="form-control" id="role_id" name="role_id">
-                <option value="0">Choose Options</option>
+                {{--<option value="0">Choose Options</option>--}}
                 @foreach($roles as $role)
                     <option value="{{$role->id}}">{{$role->name}}</option>
                 @endforeach
